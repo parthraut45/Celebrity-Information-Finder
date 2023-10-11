@@ -9,7 +9,7 @@ os.environ["OPENAI_API_KEY"]=openai_key
 
 # streamlit framework
 
-st.title('Langchain Demo With OPENAI API')
+st.title('Langchain With OPENAI API')
 input_text=st.text_input("Search the topic u want")
 
 ## OPENAI LLMS
